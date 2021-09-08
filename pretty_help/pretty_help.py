@@ -3,10 +3,10 @@ __all__ = ["PrettyHelp"]
 from random import randint
 from typing import List, Union
 
-import discord
-from discord.channel import _single_delete_strategy
-from discord.ext import commands
-from discord.ext.commands.help import HelpCommand
+import disnake as discord
+from disnake.channel import _single_delete_strategy
+from disnake.ext import commands
+from disnake.ext.commands.help import HelpCommand
 
 from .menu import DefaultMenu
 
