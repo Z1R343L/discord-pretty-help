@@ -5,8 +5,8 @@ import re
 from abc import ABCMeta
 from typing import List
 
-import discord
-from discord.ext import commands
+import disnake as discord
+from disnake.ext import commands
 
 
 class PrettyMenu(metaclass=ABCMeta):
